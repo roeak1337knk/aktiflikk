@@ -1,3 +1,8 @@
-Status:Active
-
-Giris Sağlanıldı
+void setWindowTitleToRoeakWare()
+{
+    HWND hwnd = FindWindow(NULL, L"CraftRise");  // Find the window by name "CraftRise"
+    if (hwnd != NULL)
+    {
+        SetWindowText(hwnd, L"RoeakWare");  // Set the window title to "RoeakWare"
+    }
+}
